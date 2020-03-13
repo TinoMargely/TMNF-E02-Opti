@@ -5,8 +5,8 @@
 ___
 Je sais plus quoi
 
-'''python
+```python
 def function(n):
   return n
 
-'''
+```
