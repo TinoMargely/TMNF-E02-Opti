@@ -5,7 +5,7 @@
 ___
 Je sais plus quoi
 
-'''{Python}
+'''Python
 def function(n):
   return n
 
