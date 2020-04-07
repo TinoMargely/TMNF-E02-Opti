@@ -1,8 +1,5 @@
 # TMNF-E02-Opti
-
-## The most incredible optimization project on a video game. 
-
-___
+#### The most incredible optimization project on a video game. 
 
 ## Le projet : 
 _______
