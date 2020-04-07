@@ -10,15 +10,15 @@ Nous nous intéressons ici au cas particulier du circuit E02 du jeu vidéo Track
   <img src="hqdefault.jpg">
 </p>
     
-Nous nous sommes intéressés à ce circuit en particulier puisque c'est le circuit possèdant les plus de voies alternatives et de checkpoints à valider de la série de jeu TrackMania.
+Nous nous sommes intéressés à ce circuit en particulier puisque c'est le circuit possèdant les plus de voies alternatives et de checkpoints à valider de la série de jeu TrackMania. De plus, TrackMania est intrinsèquement un jeu d'optimisation, les joueurs cherchant toujours la trajectoire la plus optimale en conciliant distance et vitesse.
 
-Pour le petit historique, plusieurs millions de joueurs essayent tant bien que mal d'inscrire leur temps dans le haut du classement de chaque circuit. De 2008 à 2019, le record de E02 n'a cessé de baisser jusqu'à atteindre les 3:48.59, record réalisé par Wirtual.
+Pour le petit historique, plusieurs millions de joueurs essayent tant bien que mal d'inscrire leur temps dans le haut du classement de chaque circuit. De 2008 à 2019, le record de E02 n'a cessé de baisser jusqu'à atteindre les 3:48.59, record réalisé par Wirtual, un joueur professionel suédois.
 
 Le niveau de jeu des joueurs experts étant assez homogène, les places dans le top 100 se jouent à quelques centièmes de secondes.
 
-Il y a de cela 10 mois, Wirtual bat son propre record du monde de plus de 14 secondes. 
-Pour réaliser cet exploit, Wirtual a utilisé de noumbreux "cuts" (passage d'une partie à une autre du circuit, non prévu par les créateurs). Tous ces cuts étaient déjà largement connus parmis les meilleurs joueurs, mais il était assez compliqué de savoir si ils pouvaient ou non faire gagner du temps, et si oui dans quel ordre les prendre. 
-Le nombre de cuts possibles étant trop élevé pour une recherche exhaustive, sans compter sur la difficulté de réalisation de certains d'entre eux, Wirtual décida de chronométrer tous les passages possibles et d'exprimer ce problème comme un problème de voyageur de commerce (Traveling Salesman Problem).
+Il y a de cela 10 mois, Wirtual bat son propre record du monde de plus de 14 secondes, passant de 4:10.73 en 2008, à 3:34.14 le 29 mai 2019. 
+Pour réaliser cet exploit, Wirtual a utilisé de noumbreux "cuts" communément "overwall" (passage d'une partie à une autre du circuit en roulant par dessus un mur, non prévu par les créateurs). Tous ces cuts étaient déjà largement connus parmis les meilleurs joueurs, mais il était assez compliqué de savoir si ils pouvaient ou non faire gagner du temps, et si oui dans quel ordre les prendre. 
+Le nombre de cuts possibles étant trop élevé pour une recherche exhaustive, sans compter sur la difficulté de réalisation de certains d'entre eux, JaV décida de chronométrer tous les passages possibles et d'exprimer ce problème comme un problème de voyageur de commerce (Traveling Salesman Problem).
 
 > Le problème du voyageur de commerce, ou problème du commis voyageur, est un problème d'optimisation qui, étant donné une liste de villes, et des distances entre toutes les paires de villes, détermine un plus court chemin qui visite chaque ville une et une seule fois et qui termine dans la ville de départ. 
 
@@ -34,7 +34,7 @@ Nous avons décider d'organiser notre travail dans l'odre suivant :
 * **Tester l'algorithme de Little sur un circuit de notre cru (Avec peu de checkpoints)**
 * **Obtenir une version fonctionnelle de la version PLNE (Miller-Tucker-Zemlin)**
 * Obtenir une version fonctionnelle de la version PLNE (Dantzig-Fulkerson-Johnson)
-* Récupérer les données de temps du circuit E02
+* **Récupérer les données de temps du circuit E02**
 * Importer les données de temps du circuit E02
 * Comparer les temps d'éxécution et les résulats de nos différentes approches sur les données de E02
 * Comparaison générale des 3 approches
