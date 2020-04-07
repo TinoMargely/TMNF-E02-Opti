@@ -9,7 +9,6 @@ Nous nous intéressons ici au cas particulier du circuit E02 du jeu vidéo Track
 <p align="center">
   <img src="hqdefault.jpg">
 </p>
-___
     
 Nous nous sommes intéressés à ce circuit en particulier puisque c'est le circuit possèdant les plus de voies alternatives et de checkpoints à valider de la série de jeu TrackMania.
 
@@ -28,7 +27,6 @@ Ici, les villes constitueront les checkpoints et la distance sera définie comme
 Notre objectif dans ce projet est donc d'essayer de réaliser la même étude, en s'appuyant sur différentes méthodes de résolution, à savoir : l'algorithme de Little (Branch and Bound) et une modélisation du problème sous forme de Programmation Linéaire en Nombres Entiers
 
 ## L'avancement du projet
-____
 
 Nous avons décider d'organiser notre travail dans l'odre suivant : 
 * **Obternir un version fonctionnelle avec l'algorithe de Little, sur l'exemple du polycopié**
