@@ -6,8 +6,9 @@ Le but de notre projet était de répondre à la problématique : Quelle est la 
 
 Nous nous intéressons ici au cas particulier du circuit E02 du jeu vidéo TrackMania Nations Forever
 
-![alt text](hqdefault.jpg){class="center"}
-
+<p align="center">
+  <img src="hqdefault.jpg">
+</p>
 ___
     
 Nous nous sommes intéressés à ce circuit en particulier puisque c'est le circuit possèdant les plus de voies alternatives et de checkpoints à valider de la série de jeu TrackMania.
