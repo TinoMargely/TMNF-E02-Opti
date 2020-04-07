@@ -2,7 +2,7 @@
 #### The most incredible optimization project on a video game. 
 
 ## Le projet : 
-Le but de notre projet était de répondre à la problématique : Quelle est la meilleure façon de parcourir les différents checkpoints d'un circuit pour le terminer le plsu rapidement possible ? 
+Le but de notre projet était de répondre à la problématique : Quelle est la meilleure façon de parcourir les différents checkpoints d'un circuit pour le terminer le plus rapidement possible ? 
 
 Nous nous intéressons ici au cas particulier du circuit E02 du jeu vidéo TrackMania Nations Forever
 
